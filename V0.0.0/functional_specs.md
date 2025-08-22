@@ -28,7 +28,7 @@ A basic user should be able to do the following in FamilyRecipes:
 - Upload recipes to their own account as well as to groups of one or more accounts
 - View recipes that they have uploaded or that others in their groups have uploaded
 - Make comments on the recipes that they have permission to access
-- **Open Issue** Should users be able to search an "Open for all" recipes database? Or only recipes in their groups?
+- ** **Open Issue** ** Should users be able to search an "Open for all" recipes database? Or only recipes in their groups?
 
 ## Screen by screen specification
 
@@ -37,7 +37,7 @@ A basic user should be able to do the following in FamilyRecipes:
 <img src="./images/home_page.png" alt="Home Page" width=250 />
 
 A welcome-to-the-website page.
-**Open issue** Should the initial page just *be* the search page?
+** **Open issue** ** Should the initial page just *be* the search page?
 
 ### Recipe Search Screen
 
@@ -46,12 +46,12 @@ A welcome-to-the-website page.
 Functionality on this page:
 - Upload new recipes
 	- Can be PDFs
-	- **Open issue** Should have a form that they can fill out manually to make a new recipe?
+	- ** **Open issue** ** Should have a form that they can fill out manually to make a new recipe?
 		- Maybe the solution is to have a form where you can upload a PDF as part of the form? Make either the PDF or parts of the form required
 - Search for available recipes
 	- Can search by tags (see figma for tag list)
-	- **Open issue** Should we display the PDF inside of a viewer, or just offer the option to download?
-	- **Open issue** Make deletion occur on this page? Or the recipe screen page? Or both?
+	- ** **Open issue** ** Should we display the PDF inside of a viewer, or just offer the option to download?
+	- ** **Open issue** ** Make deletion occur on this page? Or the recipe screen page? Or both?
 
 ### Recipe Screen
 
@@ -66,8 +66,8 @@ Functionality on this page:
 	- Can use tags to organize recipes into groups
 	- E.g., gluten-free, vegetarian, high-protein, need-some-veggies, need-some-sugar, need-some-salt, etc.
 - Checkboxes for steps to keep track of where you are
-- **Open issue** Checkboxes for ingredients that you've used/not?
-- **Open issue** Checkboxes for ingredients that you have/not?
+- ** **Open issue** ** Checkboxes for ingredients that you've used/not?
+- ** **Open issue** ** Checkboxes for ingredients that you have/not?
 
 ### Recipe Upload Screen
 
@@ -75,10 +75,10 @@ Functionality on this page:
 <img src="./images/recipe_upload.png" alt="Recipe Upload" width=250 />
 
 Functionality on this page:
-- Upload a new recipe in one of two ways: By filling out a form with relevant info, or uploading a .png or .pdf of a recipe (**Open issue** Force PDF?)
+- Upload a new recipe in one of two ways: By filling out a form with relevant info, or uploading a .png or .pdf of a recipe (** **Open issue** ** Force PDF?)
 	- For filling out a form, a user should add metadata, a variable-size list of ingredients, and a variable-size list of steps
 	- For uploading a recipe, a user should add metadata, and be able to upload a pdf/image of the recipe
-		- **Open issue** Should a user have to include ingredients for an upload as well, so that that is searchable? Or only if they want to?
+		- ** **Open issue** ** Should a user have to include ingredients for an upload as well, so that that is searchable? Or only if they want to?
 		- The rationale here is that uploading an image/pdf should be very quick and easy, not bogged down with the time that it takes to fill out the form.
 			- *Possible solution:* Make it so that others can fill out that data later, based on the PDF?
 
